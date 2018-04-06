@@ -4,50 +4,27 @@ html, body {
     line-height: 28px;
     
 }
-
-
-.MainContainer {
-    perspective: 1px;
-    transform-style: preserve-3d;
-    height: 100vh;
-    
-    overflow-x: hidden;
-    overflow-y: scroll;
+h1{
+    text-align: center;
 }
 
-.ContentContainer {
-    position: relative;
-    display: block;
-    background-color: #1A2431;
-    z-index: 1;
-    height: 100vh;
-    
+.parallax {   
+    background-image: url("under%20construction.svg");    
+    min-height: 650px;     
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 .Content {
     max-width: 750px;
     margin: auto;
-    padding-top: 50vh;
+    padding: 50vh;
     justify-content: center;
     text-align: center;
-    color: white;
-}
-
-
-
-.ParallaxContainer {
-    display: flex;
-  flex: 1 0 auto;
-  position: relative;
-  z-index: -1;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  transform: translateZ(-1px) scale(2);
-    background: url(under%20construction.svg);
-    background-size: 100%;
-    background-color: #1A2431;
-    
+    color: black;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
