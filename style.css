@@ -8,6 +8,11 @@ h1{
     text-align: center;
 }
 
+.top{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
 
 .parallax {
     background-image: url("under%20construction.svg");
