@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Welcome to my website!</title>
-<link rel="icon" type="image/png" href="kepala%20rolo2.png">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <title>Welcome to my website!</title>
+        <link rel="icon" type="image/png" href="img/kepala%20rolo2.png">
+    </head>
+    <body>
 
-<h1 class="col-12 top">Thank you for stopping by!</h1>
+        <h1 class="top">Thank you for stopping by!</h1>
 
-<div class="floating">
-    <img src="Rolo%20(Custom)%20(Custom).png" alt="Hi! I am Rolo!">
-</div>
+        <div class="floating">
+            <picture>
+                <source srcset="img/Rolo-ph.png" media="(min-width : 320px) and (max-width : 450px)">
+                <source srcset="img/Rolo-pc.png">
+                <img src="img/Rolo-pc.png" alt="Flowers" style="width:auto;">
+            </picture>
+        </div>
 
-    
 
-<div class="col-12 Content">
-<p>Unfortunately, this website is still</p>
-<h2>Under Construction</h2>
-<img class="rotate" src="planet1%20(Small).png" alt="">
 
-</div>
+        <div class="Content">
+            <p>Unfortunately, this website is still</p>
+            <h2>Under Construction</h2>
+            <picture class="rotate">
+                <source srcset="img/planet1-ph.png" media="(min-width : 320px) and (max-width : 450px)">
+                <source srcset="img/planet1-pc.png">
+                <img src="img/planet1-pc.png" alt="Flowers" style="width:auto;">
+            </picture>
 
-</body>
+        </div>
+
+    </body>
 </html>
